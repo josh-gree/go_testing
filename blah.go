@@ -2,7 +2,7 @@ package blah
 
 // Foo multiplies by 2
 func Foo(x int) int {
-	return 2 * x
+	return 3 * x
 }
 
 // Bar returns the sum of a slice of floats
