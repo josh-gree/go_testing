@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/labstack/echo"
 )
 
 func foo(x int) int {
@@ -9,8 +11,8 @@ func foo(x int) int {
 }
 
 func main() {
-	z := []int{12, 34, 56, 45, 34, 12, 32, 13}
-	for _, x := range z {
-		fmt.Println(foo(x))
-	}
+	fmt.Println("Hello")
+
+	e := echo.New()
+	e.Start(":9000")
 }
