@@ -9,7 +9,7 @@ func foo(x int) int {
 }
 
 func main() {
-	x := 3
+	x := 45
 	y := foo(x)
 	fmt.Println(y)
 }
