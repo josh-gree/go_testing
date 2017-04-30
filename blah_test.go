@@ -22,6 +22,7 @@ var testsBar = []testpairBar{
 	{[]float64{1.1, 1.1}, 2.2},
 	{[]float64{-1.1, 1.1}, 0},
 	{[]float64{1.0, 2.0, 3.0, 0.0}, 6.0},
+	{[]float64{}, 0.0},
 }
 
 func TestFoo(t *testing.T) {
